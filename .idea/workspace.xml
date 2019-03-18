@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1098373-04ee-43ca-a50b-3f07580fe4c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PrinterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WaterBottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterBottle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Printer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,7 +28,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2664" />
+          <entry key="JAVA" value="2675" />
         </counts>
       </usages-collector>
     </session>
@@ -42,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="362">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="e#253#254#0" expanded="true" />
                 <element signature="e#287#288#0" expanded="true" />
@@ -53,8 +49,6 @@
                 <element signature="e#451#452#0" expanded="true" />
                 <element signature="e#500#501#0" expanded="true" />
                 <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PrinterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#182#183#0" expanded="true" />
@@ -112,9 +106,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="101" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="42" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
   </component>
@@ -150,13 +143,6 @@
               <item name="DayOneHomeWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="DayOneHomeWork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DayOneHomeWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DayOneHomeWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -173,7 +159,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552937465660" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552938346248" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -187,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in DayOneHomeWork">
+  <component name="RunManager" selected="JUnit.PrinterTest.printJobFail">
     <configuration name="All in DayOneHomeWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DayOneHomeWork" />
       <option name="PACKAGE_NAME" value="" />
@@ -196,18 +182,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DayOneHomeWork" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrinterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DayOneHomeWork" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PrinterTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrinterTest.printJobFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DayOneHomeWork" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
+      <option name="METHOD_NAME" value="printJobFail" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -233,19 +221,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="JUnit.All in DayOneHomeWork" />
       <item itemvalue="JUnit.PrinterTest" />
       <item itemvalue="JUnit.PrinterTest.printJobTrue" />
       <item itemvalue="JUnit.PrinterTest.printJobSuccess" />
+      <item itemvalue="JUnit.PrinterTest.printJobFail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrinterTest.printJobFail" />
+        <item itemvalue="JUnit.PrinterTest" />
         <item itemvalue="JUnit.All in DayOneHomeWork" />
         <item itemvalue="JUnit.PrinterTest.printJobSuccess" />
-        <item itemvalue="JUnit.PrinterTest" />
         <item itemvalue="JUnit.PrinterTest.printJobTrue" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -263,21 +251,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrinterTest - 2019.03.18 at 18h 03m 26s.xml">
-      <configuration name="PrinterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_DayOneHomeWork - 2019.03.18 at 18h 03m 31s.xml">
-      <configuration name="All in DayOneHomeWork" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrinterTest - 2019.03.18 at 18h 42m 41s.xml">
-      <configuration name="PrinterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrinterTest - 2019.03.18 at 18h 46m 06s.xml">
-      <configuration name="PrinterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrinterTest - 2019.03.18 at 18h 50m 56s.xml">
-      <configuration name="PrinterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_DayOneHomeWork - 2019.03.18 at 18h 54m 21s.xml">
       <configuration name="All in DayOneHomeWork" configurationId="JUnit" />
     </history-entry>
@@ -293,10 +266,24 @@
     <history-entry file="PrinterTest - 2019.03.18 at 19h 22m 16s.xml">
       <configuration name="PrinterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrinterTest - 2019.03.18 at 19h 29m 25s.xml">
+      <configuration name="PrinterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterTest - 2019.03.18 at 19h 29m 51s.xml">
+      <configuration name="PrinterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_DayOneHomeWork - 2019.03.18 at 19h 30m 53s.xml">
+      <configuration name="All in DayOneHomeWork" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterTest_printJobSuccess - 2019.03.18 at 19h 31m 06s.xml">
+      <configuration name="PrinterTest.printJobSuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_DayOneHomeWork - 2019.03.18 at 19h 31m 15s.xml">
+      <configuration name="All in DayOneHomeWork" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -304,15 +291,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17609046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17609046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32901135" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32901135" />
+      <window_info anchor="bottom" id="Messages" weight="0.32901135" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27552673" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27534246" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -401,8 +388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PrinterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#182#183#0" expanded="true" />
@@ -419,8 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="362">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="e#253#254#0" expanded="true" />
             <element signature="e#287#288#0" expanded="true" />
@@ -430,8 +417,6 @@
             <element signature="e#451#452#0" expanded="true" />
             <element signature="e#500#501#0" expanded="true" />
             <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
           </folding>
         </state>
       </provider>

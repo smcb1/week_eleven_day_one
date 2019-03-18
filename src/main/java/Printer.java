@@ -31,11 +31,11 @@ public class Printer {
 
     public void printQueue(int pages, int copies) {
         int totalPages = pages * copies;
-        if (totalPages > getPaperSheets() || totalPages > getTonerLevel() ) {
-            getPaperSheets();
+        if (totalPages <= getPaperSheets() && totalPages <= getTonerLevel()) {
+            this.paperSheets -= totalPages;
+            this.tonerLevel -= totalPages;
         } else {
-            paperSheets -= totalPages;
-            tonerLevel -= totalPages;
+            getPaperSheets();
         }
     }
 }
