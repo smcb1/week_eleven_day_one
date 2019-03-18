@@ -6,7 +6,6 @@ public class WaterBottle {
 
     public WaterBottle(double volume) {
         this.volume = volume;
-
     }
 
     public double isFull() {
@@ -19,7 +18,7 @@ public class WaterBottle {
     }
 
     public double takeDrink() {
-       return volume -= 10;
+        return volume -= 10;
     }
 
 }
